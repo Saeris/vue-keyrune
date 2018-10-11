@@ -1,6 +1,6 @@
 import styled from "vue-emotion"
+import { Keyrune } from "@saeris/vue-keyrune"
 import { FocusTrap } from "./focusTrap"
-import { Keyrune } from "../../src"
 
 const colors = {
   bg: `#f5f5f4`,

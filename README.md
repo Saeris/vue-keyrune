@@ -40,6 +40,8 @@ There are a number of ways you can use this library! Here are a few examples:
 ```js
 import Vue from 'vue'
 import { Keyrune } from '@saeris/vue-keyrune'
+// import keyrune once somewhere in your app to include it's css/font files
+import "keyrune"
 
 Vue.use(Keyrune)
 
@@ -49,6 +51,7 @@ Vue.use(Keyrune)
 **[Local Component Registration](https://vuejs.org/v2/guide/components-registration.html#Local-Registration)**
 ```js
 import { Keyrune } from '@saeris/vue-keyrune'
+import "keyrune"
 
 export default {
   components: {
@@ -62,6 +65,7 @@ export default {
 
 ```js
 import { Keyrune } from '@saeris/vue-keyrune'
+import "keyrune"
 
 export default {
   render() {
@@ -76,6 +80,8 @@ export default {
 
 **[Unpkg Import](https://vuejs.org/v2/cookbook/packaging-sfc-for-npm.html#What-does-my-packaged-component-look-like)**
 ```html
+<!--Load Keyrune's CSS-->
+<link href="//cdn.jsdelivr.net/npm/keyrune@latest/css/keyrune.css" rel="stylesheet" type="text/css" />
 <!--Load libraries in your page's header-->
 <script src="https://unpkg.com/vue"></script>
 <script src="https://unpkg.com/@saeris/vue-keyrune"></script>

@@ -9,7 +9,9 @@ module.exports = {
   productionSourceMap: undefined,
   parallel: undefined,
 
-  css: undefined,
+  css: {
+    extract: false
+  },
 
   pwa: {
     name: `Vue Keyrune`,
@@ -18,7 +20,9 @@ module.exports = {
 
   configureWebpack: config => {
     if (!config.output.libraryTarget) {
-      return { plugins: [new FaviconsWebpackPlugin('./public/favicon.svg')] }
+      return {
+        plugins: [new FaviconsWebpackPlugin('./public/favicon.svg')]
+      }
     }
   }
 }

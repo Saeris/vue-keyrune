@@ -1,5 +1,5 @@
 import Vue from "vue"
-import { Keyrune, sets, rarities, sizes } from "../../src"
+import { Keyrune, sets, rarities, sizes } from "@saeris/vue-keyrune"
 import { State } from "./state"
 import { Modal } from "./modal"
 import { Radio } from "./radio"
@@ -31,6 +31,7 @@ import {
 } from "./elements"
 import "../public/fonts/index.scss"
 import "./registerServiceWorker"
+import "keyrune"
 
 Vue.config.productionTip = false
 

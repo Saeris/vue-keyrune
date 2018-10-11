@@ -1,4 +1,3 @@
-import "keyrune/sass/keyrune.scss"
 import keyrune from "./keyrune.scss"
 
 const { rarities: rawRarities, ...setlist } = keyrune

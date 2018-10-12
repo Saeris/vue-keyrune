@@ -69,17 +69,13 @@ describe(`Keyrune`, () => {
     })
 
     it(`does not have additional classes when the 'size' prop has a invalid size value`, () => {
-      [`1x`, `7x`, 1, NaN, Infinity, null, false].forEach(size => {
-        const container = mount(Keyrune, { context: { props: { size } } })
-        expect(container.classes()).toHaveLength(1)
-      })
+      const container = mount(Keyrune, { context: { props: { size: `INVALID` } } })
+      expect(container.classes()).toHaveLength(1)
     })
 
     it(`does not have rarity class when the 'rarity' prop has an invalid rarity value`, () => {
-      [`INVALID`, 1, NaN, Infinity, null, false].forEach(rarity => {
-        const container = mount(Keyrune, { context: { props: { rarity } } })
-        expect(container.classes()).toHaveLength(1)
-      })
+      const container = mount(Keyrune, { context: { props: { rarity: `INVALID` } } })
+      expect(container.classes()).toHaveLength(1)
     })
   })
 })

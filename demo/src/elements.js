@@ -405,7 +405,9 @@ export const Preview = styled(Keyrune)`
   label: preview;
   align-self: center;
   width: 32.5rem;
-  font-size: 25rem;
+  &.ss {
+    font-size: 25rem;
+  }
   &.ss.ss-grad {
     -webkit-text-stroke-width: 0.15rem;
   }
@@ -413,7 +415,9 @@ export const Preview = styled(Keyrune)`
   @media screen and (max-width: 415px) {
     width: 13rem;
     height: 13rem;
-    font-size: 10rem;
+    &.ss {
+      font-size: 10rem;
+    }
 
     &.ss.ss-grad {
       -webkit-text-stroke-width: 0.05rem;

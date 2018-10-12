@@ -86,9 +86,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Saeris/vue-spinners"
+    "url": "https://github.com/Saeris/vue-keyrune"
   },
-  "description": "Vue port of React Spinners",
+  "description": "A simple Vue component wrapper around Keyrune Demo",
   "license": "MIT",
   "engines": {
     "node": ">= 6.0.0",
@@ -101,10 +101,9 @@
     "*.js"
   ],
   "keywords": [
-    "loading spinners",
-    "loaders",
-    "spinners",
-    "loading indicators"
+    "vue",
+    "keyrune",
+    "magic the gathering"
   ],
   "gitHooks": {
     "pre-commit": "lint-staged"

@@ -1,6 +1,6 @@
 {
   "name": "@saeris/vue-keyrune",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple Vue component wrapper around Keyrune",
   "author": "Drake Costa <drake@saeris.io>",
   "license": "MIT",

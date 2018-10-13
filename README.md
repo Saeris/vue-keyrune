@@ -114,6 +114,10 @@ You can either visit the [live demo site](https://vue-keyrune.saeris.io), clone 
 
 The demo site includes a searchable list of all available sets with a handy preview tool with which you can quickly see the effects of the available props along with generated markup you can copy and paste right into your own application!
 
+## 🍴 Alternatives
+
+Looking for a React version of this component? We've got you covered! Check out [React-Keyrune](https://github.com/Saeris/react-keyrune).
+
 ## 📣 Acknowledgements
 
 Special thanks to [Andrew Gioia](https://github.com/andrewgioia) the creator of [Keyrune](https://github.com/andrewgioia/Keyrune) and to all that project's awesome contributors, without whom this library wouldn't exist!

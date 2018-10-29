@@ -25,9 +25,9 @@
 ## 📦 Installation
 
 ```bash
-npm install --save graphql @saeris/vue-keyrune keyrune
+npm install --save @saeris/vue-keyrune keyrune
 # or
-yarn add graphql @saeris/vue-keyrune keyrune
+yarn add @saeris/vue-keyrune keyrune
 ```
 
 > Note: [Keyrune](https://github.com/andrewgioia/Keyrune) is a required peer-dependency. This component will not work without it!

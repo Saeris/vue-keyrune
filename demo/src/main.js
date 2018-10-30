@@ -29,12 +29,11 @@ import {
   CloseButton,
   Footer
 } from "./elements"
-import "../public/fonts/index.scss"
 import "./registerServiceWorker"
+import "@saeris/typeface-beleren-bold"
 import "keyrune"
 
 Vue.config.productionTip = false
-
 
 const App = {
   functional: true,
@@ -54,7 +53,14 @@ const App = {
         }}
       >
         {({ state, update, reset }) => {
-          const { activeIcon, rarity, size, fixed, gradient, foil } = state.modal
+          const {
+            activeIcon,
+            rarity,
+            size,
+            fixed,
+            gradient,
+            foil
+          } = state.modal
           return (
             <Main>
               <Header>
@@ -106,9 +112,11 @@ const App = {
                         {Object.entries(sets)
                           .filter(
                             ([code, name]) =>
-                              (state.filter
-                                ? `${name} ${code}`.toLowerCase().includes(state.filter.toLowerCase())
-                                : true)
+                              state.filter
+                                ? `${name} ${code}`
+                                    .toLowerCase()
+                                    .includes(state.filter.toLowerCase())
+                                : true
                           )
                           .map(([code, name]) => (
                             <SetlistItem key={code}>

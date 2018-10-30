@@ -43,7 +43,7 @@ export const Main = styled(`main`)`
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  font-family: "Beleren";
+  font-family: "Beleren Bold";
   color: #333;
   background-color: ${colors.bg};
 
@@ -175,7 +175,7 @@ export const Search = styled(`input`)`
   background: none;
   background-color: transparent;
   font-size: 1.6rem;
-  font-family: "Beleren";
+  font-family: "Beleren Bold";
 
   &:focus {
     outline: none;
@@ -245,7 +245,7 @@ export const IconWrapper = styled(`div`)`
   height: 6.8rem;
   padding: 0.9rem 1rem;
   color: #61605B;
-  font-family: "Beleren";
+  font-family: "Beleren Bold";
 `
 
 export const Icon = styled(`span`)`

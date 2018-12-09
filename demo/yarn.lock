@@ -126,6 +126,11 @@
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-0.8.2.tgz#576ff7fb1230185b619a75d258cbc98f0867a8dc"
 
+"@saeris/typeface-beleren-bold@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@saeris/typeface-beleren-bold/-/typeface-beleren-bold-1.0.1.tgz#7df381e4497cd21b50acb1b59aee48934a409d3e"
+  integrity sha512-pkYFtfTqAg1c+EReLKLbhcoCkOoPbyC4hfP1pAjsCtVquelXZKb+jvee++jr3QLgTNABGk9Crr6ZLqZq08CP4A==
+
 "@saeris/vue-keyrune@latest":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@saeris/vue-keyrune/-/vue-keyrune-1.0.3.tgz#67a994b4a992fb4f5de004e7bd1dd78c2b421623"
@@ -741,9 +746,10 @@ babel-helper-replace-supers@^6.24.1:
     babel-traverse "^6.24.1"
     babel-types "^6.24.1"
 
-babel-helper-vue-jsx-merge-props@^2.0.3:
+babel-helper-vue-jsx-merge-props@2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-2.0.3.tgz#22aebd3b33902328e513293a8e4992b384f9f1b6"
+  integrity sha512-gsLiKK7Qrb7zYJNgiXKpXblxbV5ffSwR0f5whkPAaBAR4fhi6bwRZxX9wBlIc5M/v8CCkXUbXZL4N/nSE97cqg==
 
 babel-helpers@^6.24.1:
   version "6.24.1"
@@ -6335,9 +6341,10 @@ regexpu-core@^2.0.0:
     regjsgen "^0.2.0"
     regjsparser "^0.1.4"
 
-register-service-worker@^1.0.0:
+register-service-worker@1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/register-service-worker/-/register-service-worker-1.5.2.tgz#a4631896c38d6ec5597358f44988cc46a911912d"
+  integrity sha512-XNqSZHJsFGnvEGkg/2IrCp6G8Ya3qLj4mq0bSHil/dfdO82LOxGnMnJjAD9MYCvf/8cDCO8pL+1i65yzmP7rPQ==
 
 regjsgen@^0.2.0:
   version "0.2.0"
@@ -7637,9 +7644,10 @@ webpack-log@^2.0.0:
     ansi-colors "^3.0.0"
     uuid "^3.3.2"
 
-webpack-merge@^4.1.0:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/webpack-merge/-/webpack-merge-4.1.4.tgz#0fde38eabf2d5fd85251c24a5a8c48f8a3f4eb7b"
+webpack-merge@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/webpack-merge/-/webpack-merge-4.1.5.tgz#2be31e846c20767d1bef56bdca64c328a681190a"
+  integrity sha512-sVcM+MMJv6DO0C0GLLltx8mUlGMKXE0zBsuMqZ9jz2X9gsekALw6Rs0cAfTWc97VuWS6NpVUa78959zANnMMLQ==
   dependencies:
     lodash "^4.17.5"
 

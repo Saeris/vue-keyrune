@@ -39,7 +39,7 @@
   },
   "peerDependencies": {
     "keyrune": "^3.3.0",
-    "vue": "^2.5.17"
+    "vue": "^2.5.21"
   },
   "devDependencies": {
     "@vue/cli": "^3.0.1",

@@ -68,7 +68,7 @@
     "vue": "^2.6.5",
     "vue-class-component": "^6.2.0",
     "vue-emotion": "^0.4.2",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.6.5"
   },
   "files": [
     "lib/*",

@@ -6,7 +6,7 @@
     "@saeris/typeface-beleren-bold": "1.0.1",
     "@saeris/vue-keyrune": "latest",
     "babel-helper-vue-jsx-merge-props": "2.0.3",
-    "emotion": "9.2.12",
+    "emotion": "10.0.14",
     "focus-trap": "^3.0.0",
     "keyrune": "latest",
     "register-service-worker": "1.5.2",

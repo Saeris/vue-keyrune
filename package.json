@@ -64,7 +64,7 @@
     "node-sass": "^4.9.0",
     "register-service-worker": "^1.0.0",
     "sass-loader": "^7.0.1",
-    "snyk": "^1.103.0",
+    "snyk": "^1.195.0",
     "vue": "^2.5.17",
     "vue-class-component": "^6.2.0",
     "vue-emotion": "^0.4.2",

@@ -60,7 +60,7 @@
     "favicons-webpack-plugin": "^0.0.9",
     "focus-trap": "^3.0.0",
     "keyrune": "latest",
-    "lint-staged": "^7.2.2",
+    "lint-staged": "^9.2.3",
     "node-sass": "^4.9.0",
     "register-service-worker": "^1.0.0",
     "sass-loader": "^7.0.1",
